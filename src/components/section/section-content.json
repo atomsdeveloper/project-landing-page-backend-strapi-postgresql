@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_section_contents",
+  "info": {
+    "displayName": "sectionContent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "contentText": {
+      "type": "blocks",
+      "required": true
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.metadata",
+      "required": true
+    }
+  }
+}

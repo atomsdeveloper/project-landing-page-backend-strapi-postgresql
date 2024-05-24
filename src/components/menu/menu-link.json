@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_menu_menu_links",
+  "info": {
+    "displayName": "menuLink",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "linkText": {
+      "type": "string",
+      "required": true
+    },
+    "logoURL": {
+      "type": "text",
+      "required": true
+    },
+    "openNewTab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

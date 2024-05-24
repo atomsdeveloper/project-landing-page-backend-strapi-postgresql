@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_metadata",
+  "info": {
+    "displayName": "metadata",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "idSection": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 3,
+      "regex": "^[a-zA-Z]+([0-9-]*[a-zA-Z]+)*$"
+    },
+    "bgColor": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

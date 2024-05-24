@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_section_section_two_columns",
+  "info": {
+    "displayName": "sectionTwoColumns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 255,
+      "required": true,
+      "minLength": 3
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "metada": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.metadata",
+      "required": true
+    }
+  }
+}
